@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/dayText"
+            android:textSize="18sp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/inputWater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Water Intake (cups)"
+            android:inputType="number"
+            tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/inputExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exercise (minutes)"
+            android:inputType="number"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/inputSleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sleep (hours)"
+            android:inputType="number"
+            tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/inputNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Activity Notes"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TextFields,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Save Entry"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_on_secondary"
+            android:text="Clear Data"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnViewDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:text="View Details"
+            tools:ignore="HardcodedText,VisualLintButtonSize,TextContrastCheck" />
+    </LinearLayout>
+</ScrollView>

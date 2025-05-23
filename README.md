@@ -84,7 +84,6 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/HealthyHabitsTracker.git
 Open the project in Android Studio.
 
 Run the app on an emulator or Android device (minimum SDK 21).
